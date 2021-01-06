@@ -78,6 +78,7 @@ dependencies {
         setTransitive(false)
     }
     implementation("com.formdev:flatlaf:0.45")
+    implementation("com.formdev:flatlaf-intellij-themes:0.45")
 
     runtimeOnly("commons-jxpath:commons-jxpath:1.3")
     runtimeOnly("commons-logging:commons-logging:1.2")

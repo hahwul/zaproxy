@@ -63,7 +63,52 @@ public class ExtensionUiUtils extends ExtensionAdaptor implements SessionChanged
                         new LookAndFeelInfo("Flat Light", "com.formdev.flatlaf.FlatLightLaf"),
                         new LookAndFeelInfo("Flat Dark", "com.formdev.flatlaf.FlatDarkLaf"),
                         new LookAndFeelInfo("Flat IntelliJ", "com.formdev.flatlaf.FlatIntelliJLaf"),
-                        new LookAndFeelInfo("Flat Darcula", "com.formdev.flatlaf.FlatDarculaLaf"))
+                        new LookAndFeelInfo("Flat Darcula", "com.formdev.flatlaf.FlatDarculaLaf"),
+                        new LookAndFeelInfo(
+                                "Material Arc Dark",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatArcDarkIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Atom One Dark",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatAtomOneDarkIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Atom One Light",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatAtomOneLightIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Dracula",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatDraculaIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Github",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatGitHubIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Light Owl",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatLightOwlIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Darker",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialDarkerIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Deep Ocean",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialDeepOceanIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Lighter",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialLighterIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Oceanic",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialOceanicIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Palenight",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialPalenightIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Monokai Pro",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMonokaiProIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Night Owl",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatNightOwlIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Solarized Dark",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatSolarizedDarkIJTheme"),
+                        new LookAndFeelInfo(
+                                "Material Solarized Light",
+                                "com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatSolarizedLightIJTheme"))
                 .forEach(UIManager::installLookAndFeel);
     }
 
